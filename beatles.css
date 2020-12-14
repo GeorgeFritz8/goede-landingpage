@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family: sans-serif;
+    font-size: 40;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    padding-top: 153px;
+    min-height: 1100px;
+    background-image: url('LetItBe_0.jpg');
+    color: white;
+}
+.beatle{
+    /*background-color: rgba(255, 0, 0, 0.623);*/
+    width: 200px;
+    cursor: pointer;
+}
+h3, p {
+    margin: 0;
+    padding: 0;
+}
+.name{
+    border-left: solid 9px red;
+    padding-left: 9px;
+}
+.beatle .name{
+    opacity: 0; 
+    text-shadow: 0 0 3px black;
+}
+.beatle:hover .name{
+    opacity: 1;
+}
+#john{
+    margin-left: 118px;
+    padding-top: 420px;
+    padding-left: 270px;
+    padding-bottom: 10px;
+}
+#john .name{
+    margin-left: 100px;
+}
+#paul{
+    margin-left: 604px;
+    margin-top: -470px;
+    padding-top: 420px;
+    padding-right: 257px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+#paul .name{
+    padding-left: 10px;
+}
+#ringo{
+    margin-left: 118px;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-left: 270px;
+    padding-bottom: 424px;
+}
+#ringo .name{
+    margin-left: 100px;
+}
+#george{
+    margin-left: 604px;
+    margin-top: -469px;
+    padding-top: 1px;
+    padding-bottom: 424px;
+    padding-right: 267px;
+}
+#george .name{
+    margin-left: 10px;
+    margin-top: 5px;
+}
